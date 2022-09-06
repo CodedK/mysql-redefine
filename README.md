@@ -7,4 +7,5 @@ You can update old code by adding this line at the beginning of it if you're con
 
 Use:
 Download and include the file at the top of your PHP script:<br><br>
-&nbsp;`include_once('mysql.conf.php');`
+<code>`include_once('mysql.conf.php');`</code><br><br>
+&nbsp;
