@@ -151,6 +151,7 @@ if (!function_exists("mysql_connect")) {
     }
 
     function mysql_escape_string($s, $link_identifier = null) {
+        // Deprecated, use mysql_real_escape_string() instead.
         global $global_link_identifier;
         if ($link_identifier == null) {
             $link_identifier = $global_link_identifier;
